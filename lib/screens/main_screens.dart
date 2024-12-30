@@ -18,7 +18,7 @@ class _MainScreensState extends State<MainScreens> {
   int selectedIndex = 0;
 
   // 2. 행위
-  // 헷갈리지 않게 상태를 설정했으면 바로 밑에 행위 메서드도 만들어놓기
+  // 상태를 설정했으면 헷갈리지 않게 바로 밑에 행위 메서드도 만들기
   void onClickBottomNavigation(int value) {
     selectedIndex = value;
     setState(() {}); // 초기화
